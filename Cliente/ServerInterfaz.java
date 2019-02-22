@@ -4,7 +4,7 @@ class ServerInterfaz
 {
       public static void main(String args[])
       {
-            String Directorio = "/home/rene/Documentos/Java/Serializacion/Carrito_Compras/Servidor";
+            String Directorio = "/Carrito_Compras/Servidor";
             File f = new File(Directorio);
             File [] archivos = f.listFiles();
             String nombre_archivo;
